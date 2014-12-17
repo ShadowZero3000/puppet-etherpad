@@ -1,6 +1,6 @@
 class etherpad::dependencies {
   class { 'nodejs':
-    version => 'v0.10.15',
+    version => 'latest',
   }
 
   if !defined(Package['gzip']) {
