@@ -1,6 +1,6 @@
 class etherpad::dependencies {
   class { 'nodejs':
-    version => 'latest',
+    version => 'stable',
     make_install => false,
   }
 
